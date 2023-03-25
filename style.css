@@ -41,6 +41,7 @@ body {
 
 .technology-top {
     padding-top: 10rem;
+    padding-bottom: 5rem;
 }
 
 .technology-svg {
@@ -51,7 +52,8 @@ body {
 .projects {
     display: flex;
     justify-content: center;
-    padding-top: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .project {
@@ -138,13 +140,16 @@ body {
     background-position: bottom;
 }
 
+.project__details{
+    background-color: #e8e8e895;
+}
 
 .project__details p a {
-
 
     font-size: 14px;
     display: block;
     color: #191b1d;
+
 }
 
 .project__details span {

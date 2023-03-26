@@ -3,10 +3,18 @@ body {
     padding: 0;
 }
 
+hr {
+    border-width: 3px;
+    border-color: black;
+    border-top: 3px solid #000000;
+  }
+
 .collapse {
     margin-left: 5rem;
     margin-right: 3rem;
 }
+
+
 
 .tekno {
     background-color: rgba(255, 255, 255, 0.925);
@@ -216,7 +224,182 @@ height:280px ;
 }
 
 
+.contact {
+    background-color: rgba(255, 255, 255, 0.925);
+    color: #e6e6e6;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    z-index: -1;
+    font-size: 8rem;
 
+
+}
+
+
+.contact2 {
+
+    color: #000000;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+
+    z-index: 1;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    
+}
+
+.contact3 {
+
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 300;
+    padding-top: 15rem;
+    z-index: 1;
+    margin-left: 1rem;
+}
+
+.contact__us{
+margin-top: 4rem;
+text-align: center;
+}
+
+/* contact from */
+.contact-form {
+    border: 1px solid #cecbcbb8;
+    padding: 40px;
+    margin-left: 15px;
+    -webkit-box-shadow: 0 0 20px rgba(158, 158, 158, 0.16);
+    box-shadow: 0 0 20px rgba(158, 158, 158, 0.16);
+    background-color: #e8e8e895;
+  }
+  
+  .contact-form form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .contact-form form .form-group .form-control {
+    height: 55px;
+    border-radius: 0;
+  }
+  
+  .contact-form form .form-group textarea.form-control {
+    height: auto;
+  }
+  
+  .contact-form form .help-block ul {
+    margin-bottom: 0;
+    margin-top: 12px;
+  }
+  
+  .contact-form form .help-block ul li {
+    color: red;
+  }
+  
+  .contact-form form .default-btn {
+    margin-top: 5px;
+  }
+  
+  .contact-form form #msgSubmit {
+    margin: 0 !important;
+  }
+  
+  .contact-form form #msgSubmit.text-danger, .contact-form form #msgSubmit.text-success {
+    margin-top: 15px !important;
+  }
+  /*contact from  */
+
+
+
+  /*form-control*/
+.form-control {
+    height: 50px;
+    color: #221638;
+    -webkit-box-shadow: unset !important;
+    box-shadow: unset !important;
+    border: 1px solid #cecbcb;
+    background-color: #dee5e8;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 3px;
+    padding: 1px 0 0 15px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .form-control::-webkit-input-placeholder {
+    color: #7e7e7e;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .form-control:-ms-input-placeholder {
+    color: #7e7e7e;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .form-control::-ms-input-placeholder {
+    color: #7e7e7e;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .form-control::placeholder {
+    color: #7e7e7e;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .form-control:focus {
+    border-color: #ff5d22;
+    background-color: transparent;
+  }
+  
+  .form-control:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-control:focus:-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-control:focus::-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-control:focus::placeholder {
+    color: transparent;
+  }
+  
+  textarea.form-control {
+    height: auto;
+    padding-top: 15px;
+  }
+
+
+
+
+  /* buton */
+
+
+  .default-btn {
+    border: none;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    color: #ffffff;
+    background-color: #ff5d22;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 10px;
+    padding: 12px 50px 12px 50px;
+    font-weight: 700;
+    font-size: 16px;
+}
 
 @media only screen and (min-width: 60em) {
     .tekno {
@@ -239,6 +422,9 @@ height:280px ;
     .about-us {
         font-size: 8rem;
     }
+
+    .contact{
+    font-size:6rem ;}
 
 }
 
@@ -293,5 +479,13 @@ height:280px ;
 
     .about-us {
         font-size: 4rem;
+    }
+
+    .contact{
+    font-size: 4rem;
+    }
+
+    .us-p{
+    display: none;
     }
 }
